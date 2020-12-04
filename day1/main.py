@@ -217,5 +217,3 @@ def find_numbers_summing_to_2020(numbers, partial=[]):
 
 if __name__ == "__main__":
     find_numbers_summing_to_2020(values)
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/

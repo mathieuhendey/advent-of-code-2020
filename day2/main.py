@@ -1,7 +1,3 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 import re
 
 regex = r"(?P<minimum>\d+)-(?P<maximum>\d+)\s(?P<required>[a-zA-Z]:) (?P<password>[a-zA-Z]*)"
@@ -1036,7 +1032,6 @@ def find_valid_password_counts_part_2():
         if bool(password[minimum - 1] == required) ^ bool(
             password[maximum - 1] == required
         ):
-            print(password)
             valid.append(password)
     return len(valid)
 
