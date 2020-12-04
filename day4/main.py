@@ -53,7 +53,6 @@ def count_valid_passports():
             count += 1
         match = []
     print("Part 2: %d" % count)
-    return
 
 
 if __name__ == "__main__":

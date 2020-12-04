@@ -202,7 +202,9 @@ values = [
 ]
 
 
-def find_numbers_summing_to_2020(numbers, partial=[]):
+def find_numbers_summing_to_2020(numbers, partial=None):
+    if partial is None:
+        partial = []
     s = sum(partial)
     if s == 2020:
         print("%s" % partial)
